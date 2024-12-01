@@ -1,4 +1,9 @@
-apt_packages : 
- - nginx
- - traceroute
- - net-tools
+---
+# apt_packages : 
+#  - nginx
+#  - traceroute
+#  - net-tools
+
+- name: On Success Task
+  ansible.builtin.debug:
+    msg: "On Success Task"

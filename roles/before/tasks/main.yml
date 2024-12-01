@@ -1,6 +1,10 @@
 ---
-- name: install packages in before tasks
-  apt:
-    name: "{{item}}"
-    state: present
-  with_items: "{{apt_packages}}"
+# - name: install packages in before tasks
+#   apt:
+#     name: "{{item}}"
+#     state: present
+#   with_items: "{{apt_packages}}"
+
+- name: Before Task
+  ansible.builtin.debug:
+    msg: "Before Task"
