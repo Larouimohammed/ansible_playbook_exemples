@@ -4,6 +4,4 @@
 #  - traceroute
 #  - net-tools
 
-- name: On Success Task
-  ansible.builtin.debug:
-    msg: "On Success Task"
+
