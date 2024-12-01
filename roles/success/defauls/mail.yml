@@ -1,7 +1,7 @@
 ---
-# apt_packages : 
-#  - nginx
-#  - traceroute
-#  - net-tools
+apt_packages : 
+ - nginx
+ - traceroute
+ - net-tools
 
 
